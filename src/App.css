@@ -21,6 +21,7 @@
     
 }
 
+
 .add-input {
     width: 95%;
     height: 40px;
@@ -30,10 +31,20 @@
     padding: 10px;
     font-family: 'Poppins', sans-serif;
 }
+@media only screen and (max-width:480px){
+    .add-input{
+        width: 60%;
 
+    }
+}
 .button-container {
     text-align: center;
     margin: 30px;
+}
+@media only screen and (max-width:480px) {
+    .button-container{
+        margin: 15px;
+    }
 }
 
 .grid-main {
