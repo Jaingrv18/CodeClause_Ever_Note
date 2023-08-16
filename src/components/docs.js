@@ -62,6 +62,7 @@ export default function Docs({database}) {
                 return (
                     <div className='grid-child' onClick={() => getID(doc.id)}>
                         <p>{doc.title}</p>
+                        
                     </div>
                 )
             })}
